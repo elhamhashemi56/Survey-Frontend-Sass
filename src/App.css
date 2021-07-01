@@ -1,28 +1,39 @@
 .App{
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 7% 8% 1fr ;
+  grid-template-columns:20% 2% 1fr;
 
   grid-template-areas: 
-      " Navbar Navbar Navbar"
-      " . Main ."
-      " Footer Footer Footer "
+      " header header header"
+      " sidebar divider subHeader"
+      " sidebar divider main "
   ;
 }
 
 
-#Navbar{
-  grid-area:Navbar ;
-  background-color: grey;
+#header{
+  grid-area:header ;
+  background-color: #212429;
 }
  
 
-#Main{
-  grid-area:Main ;
-  background-color: #e3e3e3;
+#sidebar{
+  grid-area:sidebar ;
+  background-color: #212429;
 }
 
-#Footer{
-  grid-area:Footer ;
-  background-color: gray;
+#divider{
+  grid-area:divider ;
+  background-color: #DDDDDD;
 }
+
+#subHeader{
+  grid-area:subHeader ;
+  background-color: white;
+}
+
+#main{
+  grid-area:main ;
+  background-color: #f8f9fb;
+}
+
