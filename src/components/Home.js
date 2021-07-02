@@ -8,6 +8,7 @@ const Home = () => {
             <h1>Welcome to Survey APP</h1>
             <img src={Bild} className='Home-Container__img'></img>
             <img src={Bild} className='Home-Container__img'></img>
+            <img src={Bild} className='Home-Container__img'></img>
         </div>
     );
 };

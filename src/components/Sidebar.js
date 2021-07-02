@@ -10,6 +10,6 @@ const Sidebar = (props) => {
             <Footer />
         </div>
     );
-};
+}; 
 
 export default Sidebar;

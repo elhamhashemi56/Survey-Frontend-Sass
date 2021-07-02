@@ -1,6 +1,9 @@
 .Header-Container{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
 
     &__img{
         display: flex;

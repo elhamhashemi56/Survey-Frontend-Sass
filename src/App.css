@@ -1,6 +1,6 @@
 .App{
   display: grid;
-  grid-template-rows: 7% 8% 1fr ;
+  grid-template-rows: 7% 6% 1fr ;
   grid-template-columns:20% 2% 1fr;
 
   grid-template-areas: 

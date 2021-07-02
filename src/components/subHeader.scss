@@ -1,6 +1,14 @@
 .SubHeader-container{
     display: flex;
     justify-content: space-between;
+    // border: 1px solid hotpink;    
+    position: fixed;
+    width: 78.5%;
+    margin-left: 42.5vh;
+    margin-top: 10vh;
+    
+    
+
 
     &__Admin{
         display: flex;
@@ -8,7 +16,7 @@
             .items{
                 margin: 5px;
                     img{
-                        width: 55px;
+                        width: 50px;
                     }
             }
     }
